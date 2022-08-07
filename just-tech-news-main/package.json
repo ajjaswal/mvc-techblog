@@ -1,0 +1,36 @@
+{
+  "name": "just-tech-news",
+  "version": "1.0.0",
+  "description": "This application will create the database and structure for a news aggregate site called \"Just Tech News,\" where a user can add articles, comment, and vote on them, similar to Hacker News.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpehl/just-tech-news.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpehl/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/kpehl/just-tech-news#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1",
+    "nodemon": "^2.0.6"
+  }
+}

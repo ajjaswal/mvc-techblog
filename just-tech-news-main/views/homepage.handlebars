@@ -1,0 +1,11 @@
+<!--An ordered list for the articles posted-->
+<ol class="post-list">
+    <!--uses handlebars each to iterate through the array of posts; 
+    defines post as a variable to make dynamic content below more semantic;
+    uses post-info partial to define content-->
+  {{#each posts as |post|}}
+  <li>
+    {{> post-info post }}
+  </li>
+  {{/each}}
+</ol>

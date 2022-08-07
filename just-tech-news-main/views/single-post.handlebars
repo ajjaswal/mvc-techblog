@@ -1,0 +1,27 @@
+<!--get the information for the individual requested post using the post-info partial-->
+{{> post-info post }}
+
+<!--Comment Form and Upvote Button-->
+<!--Displayed only for logged in users-->
+{{#if loggedIn}}
+<form class="comment-form">
+  <div>
+    <textarea name="comment-body"></textarea>
+  </div>
+
+  <div>
+    <button type="submit">add comment</button>
+    <button type="button" class="upvote-btn">upvote</button>
+  </div>
+</form>
+{{/if}}
+
+<!--Display all the comments on the post using the comments partial view-->
+{{> comments post.comments}}
+
+<!--Scripts for adding a comment and adding an upvote-->
+<!--Only loaded for a logged in user-->
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+<script src="/javascript/upvote.js"></script>
+{{/if}}

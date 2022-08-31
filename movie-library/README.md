@@ -1,6 +1,6 @@
 # movie-library
 
-![Screenshot 2022-08-07 204815](https://user-images.githubusercontent.com/102101481/183318810-d04833ea-1c19-4eb2-966d-d1180d3aa9db.png)
+![Screenshot 2022-08-31 162144](https://user-images.githubusercontent.com/102101481/187775107-749a2877-be07-4997-9fa1-89c684d900d0.png)
 
 ##  Project Description
 This app uses the TMDB API to allow you to search for movies, like or dislike movies, and save your preferences by logging into the application. 

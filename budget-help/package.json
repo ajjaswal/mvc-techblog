@@ -1,0 +1,30 @@
+{
+  "name": "budget-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-server",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajjaswal/budget-help"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajjaswal/budget-help/issues"
+  },
+  "homepage": "https://github.com/ajjaswal/budget-help#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.18.1",
+    "lite-server": "^2.6.1",
+    "mongoose": "^6.5.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}

@@ -10,7 +10,7 @@ const AppFooter = () => {
                     
                     <div className="d-flex justify-content-between">
                         <p>2022</p>
-                        <p><a className="footer-link" href="https://github.com/ajjaswal/movie-library"><i className="fab fa-github pr-3"></i>Visit the GitHub Repo</a></p>
+                        <p><a className="footer-link" href="https://github.com/ajjaswal/movie-lib-mern/tree/main/movie-library"><i className="fab fa-github pr-3"></i>Visit the GitHub Repo</a></p>
                     </div>
                 </Container>
             </Container>

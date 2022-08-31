@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nystephens/mvc-tech-blog.git"
+    "url": "git+https://github.com/ajjaswal/mvc-techblog/tree/main/mvc-techblog"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nystephens/mvc-tech-blog/issues"
+    "url": "https://github.com/ajjaswal/mvc-techblog/tree/main/mvc-techblog/issues"
   },
-  "homepage": "https://github.com/nystephens/mvc-tech-blog#readme",
+  "homepage": "https://github.com/ajjaswal/mvc-techblog/tree/main/mvc-techblog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.1",
